@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font: 16px/20px "Trebuchet MS", sans-serif;
+}
+.wrapper{
+    width: 900px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    border-bottom-style: solid;
+    margin-bottom: 30px;
+    border-bottom-width: 1px;
+    border-bottom-color: #d9d9d9;
+}
+.logo-img{
+    width: 320px;
+    height: 124px;
+    margin: 20px 0 0 30px;
+    display: inline-block;
+
+}
+.cont_info{
+    float: right;
+    width: 340px;
+    padding: 0;
+    margin: 45px 60px;
+    font-size: 10px;
+    line-height: 14px;
+}
+.address{
+    float: left;
+    width: 140px;
+    text-align: right;
+}
+.contacts{
+    float: left;
+    width: 183px;
+
+}
+.contacts1{
+    color: #cc0000;
+    font-weight: bold;
+}
+
+
+.contacts:before{
+    display: inline-block;
+    float: left;
+    width: 1px;
+    height: 38px;
+    margin:0 10px;
+    content: '';
+    background: #d9d9d9;
+}
+/*.nav_box{*/
+/*    display: inline-block;*/
+/*    text-align: left;*/
+/*    vertical-align: bottom;*/
+/*}*/
+.new_nav{
+
+    background: khaki;
+    overflow: hidden;
+}
+.nav-list{
+    display: inline-block;
+    margin: 0;
+    width: 555px;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    background: teal;
+    vertical-align: bottom;
+    clear: right;
+
+
+}
+.nav-list-right{
+    margin: 0;
+    padding-inline-end: 40px;
+    background: tomato;
+    list-style-type: none;
+    text-align: center;
+    float: right;
+
+
+}
+
+
+.nav-item{
+    padding: 0;
+    float: left;
+    width: 118px;
+    background: linear-gradient(215deg, rgba(236,236,236,1) 0%, rgba(252,252,252,1) 50%, rgba(234,234,234,1) 100%);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9d9d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-width: 0;
+    margin: 0 5px;
+}
+.nav-link{
+    font-size: 15px;
+    line-height: 19px;
+    color: #cc0000;
+    text-decoration-line: none;
+    margin: 7px;
+}
+.nav-item-right{
+    padding: 0;
+    float: right;
+    width: 100px;
+    background: linear-gradient(215deg, rgba(236, 236, 236, 1) 0%, rgba(252, 252, 252, 1) 50%, rgba(234, 234, 234, 1) 100%);;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d9d9d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-width: 0;
+    margin: 0 5px;
+}
+.nav-link-right{
+    font-size: 10px;
+    line-height: 14px;
+    color: black;
+    text-decoration-line: none;
+    margin: 7px;
+}
+/*.nav-box-right {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    vertical-align: bottom;*/
+/*    display: inline;*/
+/*    position: absolute;*/
+/*    text-align: center;*/
+
+/*}*/
+article{
+    margin: 0 auto;
+}
+
+.main_box{
+    width: 570px;
+}
+.main_box span{
+    margin: 10px 0;
+}
+
+.main_box h1{
+    font-size: 30px;
+    line-height: 34px;
+    color: #cc0000;
+    font-weight: normal;
+    margin: 10px 0;
+}
+.description_card{
+    overflow: hidden;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+    border:1px solid #cccccc;
+    border-radius: 8px;
+    background: linear-gradient(215deg, rgba(236,236,236,1) 0%, rgba(252,252,252,1) 50%, rgba(234,234,234,1) 100%);
+}
+.card{
+    text-align: center;
+    width: 162px;
+    float: left;
+    margin: 20px 10px 5px;
+    font-size: 0;
+}
+
+.description_card h2{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    color: #CC0000FF;
+    margin: 0 0 3px 0;
+}
+.description_card span{
+    margin: 0;
+    font-size: 12px;
+    line-height: 17px;
+}
+.servicios{
+    padding: 0;
+    margin: 0 auto 75px;
+    overflow: hidden;
+}
+.servicios_card{
+    margin: 0 auto;
+    float: left;
+    text-align: left;
+    width: 190px;
+}
+.servicios_card h3{
+    font-size: 15px;
+    line-height: 17px;
+    color: #cc0000;
+    font-weight: bold;
+    margin: 0;
+
+}
+.servicios_card li{
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+.servicios_card ul{
+    list-style-position: inside;
+    padding-inline-start: 0;
+}
+footer{
+    width: 900px;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+.nav_box_footer{
+    font-size: 0;
+    padding: 0;
+}
+.nav-list_footer{
+    padding-inline-start: 0;
+}
+.nav-link_footer{
+    color: black;
+    text-decoration-line: none;
+    font-size: 10px;
+    line-height: 15px;
+
+}
+.nav-item_footer{
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    padding: 0;
+
+
+}
+.nav-item_footer::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 4px;
+}
+.nav-item_footer:first-child::before{
+    display: none;
+}
+footer span{
+    font-size: 10px;
+    line-height: 15px;
+    display: block;
+    width: 362px;
+    color: #5e5e5e;
+    margin: 0 auto;
+}
+
+
+
